@@ -1,0 +1,12 @@
+ name: RewardsHolder
+ version: 1.0.0
+ description: RewardsHolder plugin for Munchcraft
+ author: Unknowncall
+ 
+ main: com.justmines.rewardsholder.RewardsHolder
+
+ commands:
+   rh:
+     description: Main command for RewardsHolder
+     usage: /<command>
+     aliases: [lb, rewardsholder, rewards]

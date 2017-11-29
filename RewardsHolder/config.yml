@@ -1,0 +1,93 @@
+messages:
+  prefix: '&b» &7'
+  reload: Reloaded!
+  wrongusage: Wrong Usage!
+  playeronly: You must be a player to use this command!
+  mustbeint: You must use a number value for the amount to give to a player!
+  rewardreceived: You have received {amount} {reward}&7! &b/lb
+  rewardgiven: You have given {amount} {reward} to {player}
+settings:
+  openspeed: 10
+rewards:
+  luckyblocks:
+    name: '&cLucky Block&7'
+    commands:
+    - cr forceopen {player} luckyblock
+  superluckyblock:
+    name: '&cSuper Lucky Block&7'
+    commands:
+    - cr forceopen {player} superluckyblock
+  donorluckyblock:
+    name: '&cDonator Lucky Block&7'
+    commands:
+    - cr forceopen {player} donorluckyblock
+  tokenluckyblock:
+    name: '&cToken Lucky Block&7'
+    commands:
+    - cr forceopen {player} tokenluckyblock
+  keyluckyblock:
+    name: '&cKey Lucky Block&7'
+    commands:
+    - cr forceopen {player} keyluckyblock
+gui:
+  settings:
+    rows: 1
+    title: '{player} Rewards'
+  items:
+    luckyblocks:
+      slot: 1
+      item:
+        id: 54
+        dura: 0
+        name: '&cLucky Blocks'
+        lore:
+        - '&7You currently have &c{amount} &7Lucky Blocks.'
+        - ''
+        - '&7Left click to claim one'
+        - '&7Right click to claim all'
+    superluckyblock:
+      slot: 3
+      item:
+        id: 54
+        dura: 0
+        name: '&cSuper Lucky Blocks'
+        lore:
+        - '&7You currently have &c{amount} &7Super Lucky Blocks.'
+        - ''
+        - '&7Left click to claim one'
+        - '&7Right click to claim all'
+    keyluckyblock:
+      slot: 5
+      item:
+        id: 54
+        dura: 0
+        name: '&cKey Lucky Blocks'
+        lore:
+        - '&7You currently have &c{amount} &7Key Lucky Blocks.'
+        - ''
+        - '&7Left click to claim one'
+        - '&7Right click to claim all'
+    tokenluckyblock:
+      slot: 7
+      item:
+        id: 54
+        dura: 0
+        name: '&cToken Lucky Blocks'
+        lore:
+        - '&7You currently have &c{amount} &7Token Lucky Blocks.'
+        - ''
+        - '&7Left click to claim one'
+        - '&7Right click to claim all'
+    donorluckyblock:
+      slot: 9
+      item:
+        id: 54
+        dura: 0
+        name: '&cDonor Lucky Blocks'
+        lore:
+        - '&7You currently have &c{amount} &7Donor Lucky Blocks.'
+        - ''
+        - '&7Left click to claim one'
+        - '&7Right click to claim all'
+deaab01f-ff0a-43a3-aaef-9809e2e586df:
+  luckyblocks: 0
